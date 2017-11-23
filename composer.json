@@ -1,0 +1,32 @@
+{
+    "name": "updev/filehandler",
+    "description": "A simple file handler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vigan Shemsiu",
+            "email": "vigan@uptime.dk"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Updev\\FileHandler\\Providers"
+            ],
+            "aliases": {
+                "FileHandler": "Updev\\FileHandler\\Facades"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Updev\\FileHandler\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "5.4.x-dev",
+        "illuminate/http": "5.4.x-dev",
+        "illuminate/filesystem": "5.4.x-dev"
+    }
+}
