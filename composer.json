@@ -11,10 +11,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Updev\\FileHandler\\Providers"
+                "Updev\\FileHandler\\Providers\\FileHandlerServiceProvider"
             ],
             "aliases": {
-                "FileHandler": "Updev\\FileHandler\\Facades"
+                "FileHandler": "Updev\\FileHandler\\Facades\\FileHandler"
             }
         }
     },
